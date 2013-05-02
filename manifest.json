@@ -1,0 +1,13 @@
+{
+  "name": "D2L Plus!",
+  "description": "Making D2L 10.1 look fancy :) By Aaron Morais and Dian Xiang",
+  "manifest_version": 2,
+  "version": "0.1",
+  "content_scripts": [ 
+    {
+      "matches": ["*://learn.uwaterloo.ca/*"],
+      "css": ["pretty.css"],
+      "js": ["jquery.js", "style.js"]
+    }
+  ]
+}
