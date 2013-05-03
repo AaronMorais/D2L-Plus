@@ -1,4 +1,42 @@
 .d2l-background-left div div, .d2l-background-right div div {
 	background:none;
-	background-color: blue;
+	background-color: #566473;
+}
+
+.d2l-minibar {
+  	box-shadow: none !important; 
+ 	width: 100%;
+}
+
+.d2l-minibar-placeholder > div {
+ 	background-color: #566473;
+}
+
+.d2l-navbar-container {
+	background-color: #566473 !important;
+}
+
+#d2l_navbar div.d_nb_cMiddle {
+	border-bottom: none !important;
+}
+
+.d2l-navbar-area-list {
+	color: #ffffff;
+}
+
+.d2l-page-main-padding {
+	background-color: #566473;
+	padding: 0px 0px 0px 0px;
+}
+
+.d2l-widget > div{
+	background-color: #566473;
+	color: #ffffff;
+	border: none;
+	margin: 20px 20px;
+}
+
+.d2l-widget-header .d2l-widget-header-clickable > div {
+	background: -webkit-linear-gradient( top, rgba(0, 0, 0, 0.1), #ff0000 100%) !important;
+}
 }
